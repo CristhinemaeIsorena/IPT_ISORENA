@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="\docs\CSS\styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- Header center and logo-->
+    <header class="header">
+        <a href="#home" class="logo"><span>Iso</span>rena</a>
+        
+        <!-- Navigation center -->
+        <nav class="navbar">
+            <a href="#about">About me</a>
+            <a href="#experience">Experience</a>
+            <a href="#project">Project</a>
+        </nav>
+
+        <!-- Contact center-->
+        <a href="#contact" class="contact">Contact me</a>
+
+        <!-- Time Display -->
+        <div id="currentTime" style="font-size: 15px; font-weight: bold; color: #ffffff; position: absolute; right: 9%; top: 0; padding: 10px;"></div>
+        <script src="\docs\JAVASCRIPT\script.js"></script>
+    </header>
+
+    <!-- Content of my portfolio / introduction / section 1-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <br><br>
+            <h3>Hi</h3>
+
+            <!-- Name -->
+            <h1>I'm <span style="font-size: 45px;">Cristhine Mae Isorena<br></span>a content of mylife as an IT student</h1>
+
+            <!-- Intro -->
+            <p>Information Technology (IT) is at the heart of our digital world. As an IT student, you'll learn how to 
+            solve real-world problems using technology, whether it's building apps, managing data, or securing 
+            systems. IT is all about creating smarter solutions for everyday challenges, and the skills you gain 
+            will help shape the future of how we live and work in a tech-driven world.</p>
+
+            <!-- Button section -->
+            <div class="btn-box">
+                <a href="#contact"><button class="btn-1">Hire me</button></a>
+                <a href="#experience"><button class="btn-2">Experience</button></a>
+            </div>
+        </div>
+
+         <!-- Image -->
+        <div class="img-box">  
+            <img src="\docs\IMAGES\image.jpg" alt="image">
+        </div>
+    </section>
+
+    <!-- Content about me / section 2 -->
+    <section class="about" id="about">
+
+        <!-- Image -->
+        <div class="about-img">
+            <img src="\docs\IMAGES\image.jpg" alt="image">
+        </div>
+
+        <!-- Intro -->
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>IT <span>Student</span></h3>
+            <p>Information Technology (IT) is at the heart of our digital world. As an IT student, you'll learn how to 
+            solve real-world problems using technology, whether it's building apps, managing data, or securing 
+            systems. IT is all about creating smarter solutions for everyday challenges, and the skills you gain 
+            will help shape the future of how we live and work in a tech-driven world.</p>
+            
+            <!-- Button experience -->
+            <a href="#experience" class="btn-2">Experience</a>
+        </div>
+    </section>
+
+    <!-- Content Experience / Section 3 -->
+    <section class="experience" id="experience"><br><br><br><br><br>
+    <h2 class="experience">My <span>Experience</span></h2>
+
+        <div class="cover">
+            <div class="box">
+              <img src="\docs\IMAGES\html.jpg" style="width: 300px; height: 200px; display: flex;"/>
+              <h2>HTML</h2>
+              <p>Learning basic webpage structure, incorporating media, creating forms, and applying responsive design 
+                for web development.</p>
+            </div>
+            <div class="box">
+              <img src="\docs\IMAGES\css.png" style="width: 300px; height: 200px; display: flex;"/>
+              <h2>CSS</h2>
+              <p>Involves learning to style webpages, manage layouts with Flexbox and Grid, and apply responsive design 
+                techniques for various devices.</p>
+            </div>
+            <div class="box">
+              <img src="\docs\IMAGES\js.jpg" style="width: 300px; height: 200px; display: flex;"/>
+              <h2>JAVA SCRIPT</h2>
+              <p>Involves learning to make webpages interactive, handle events, manipulate the DOM, and implement logic 
+                for dynamic web functionality.</p>
+            </div>
+            <div class="box">
+                <img src="\docs\IMAGES\project.jpg" style="width: 300px; height: 200px; display: flex;"/>
+                <h2>PROJECT</h2>
+                <p>An IT student who need to create a project portfolio to see the learning and skills of a student.</p>
+              </div>
+          </div>        
+    </section>
+
+    <!-- Content project / section 4 --> <br><br>
+    <Section class="project" id="project" style="background-color: black;">
+        <!-- portfolio-section contains headings and a grid of 8 images -->
+        <div class="portfolio-section"> <br><br><br><br><br>
+            <h2 class="project" style="color: white;">My <span>Project</span></h2>
+    
+            <!-- grid-container uses a CSS grid layout to arrange the images in 4 columns -->
+            <div class="grid-container">
+                <div class="grid-item"><img src="\docs\IMAGES\image1.png" alt="Project 1"></div>
+                <div class="grid-item"><img src="\docs\IMAGES\image2.png" alt="Project 2"></div>
+                <div class="grid-item"><img src="\docs\IMAGES\image3.png" alt="Project 3"></div>
+                <div class="grid-item"><img src="\docs\IMAGES\image4.png" alt="Project 4"></div>
+                <div class="grid-item"><img src="\docs\IMAGES\image5.png" alt="Project 5"></div>
+                <div class="grid-item"><img src="\docs\IMAGES\image6.png" alt="Project 6"></div>
+                <div class="grid-item"><img src="\docs\IMAGES\image7.png" alt="Project 7"></div>
+                <div class="grid-item"><img src="\docs\IMAGES\image8.png" alt="Project 8"></div>
+            </div>
+        </div><br><br>
+    </Section>
+
+    <!-- Content contact / section 5 -->
+    <section class="contact-form" id="contact"><br>
+        <h2 class="contact-me">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Contact Number">
+                <input type="text" placeholder="Subject">
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn-1">
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+<footer class="footer" style="background-color: #000; color: #fff; padding: 20px 0; text-align: center;">
+    <div class="footer-content">
+        <h3>Connect with Me</h3>
+        <div class="social-icons">
+            <a href="https://facebook.com/yourprofile" target="_blank" style="margin: 0 10px; color: #fff;">
+                <i class='bx bxl-facebook'></i>
+            </a>
+            <a href="https://instagram.com/yourprofile" target="_blank" style="margin: 0 10px; color: #fff;">
+                <i class='bx bxl-instagram'></i>
+            </a>
+            <a href="https://github.com/yourprofile" target="_blank" style="margin: 0 10px; color: #fff;">
+                <i class='bx bxl-github'></i>
+            </a>
+        </div>
+        <p style="margin: 20px 0;">&copy; 2024 Cristhine Mae Isorena. All rights reserved.</p>
+        <p>Designed and Developed by <span style="color: #f39c12;">Tinay</span></p>
+    </div>
+</footer>
+</body>
+</html>
